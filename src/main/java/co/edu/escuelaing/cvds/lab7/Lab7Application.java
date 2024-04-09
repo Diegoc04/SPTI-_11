@@ -25,7 +25,7 @@ public class Lab7Application {
 		return (args) -> {
 
 			System.out.println("Adding Configurations....");
-			configurationService.addConfiguration(new Configuration("premio", "800000"));
+			configurationService.addConfiguration(new Configuration("price", "800000"));
 
 			System.out.println("\nGetting all configurations....");
 			configurationService.getAllConfigurations().forEach(configuration -> System.out.println(configuration));
