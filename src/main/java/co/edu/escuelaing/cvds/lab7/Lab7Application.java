@@ -11,11 +11,11 @@ import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
 public class Lab7Application {
-	@Autowired
+
 	ConfigurationService configurationService;
-	@Autowired
 	EmployeeService employeeService;
 
+	@Autowired
 	public static void main(String[] args) {
 		SpringApplication.run(Lab7Application.class, args);
 	}
